@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,155 @@
     <title>Galaxy Sorteos</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <nav>
         <div class="logo-container">
-            <img id="logo-img" src="img/logo.png" alt="">
+            <img id="logo-img" src="" alt="">
         </div>
-        
-        <div class="space">
 
-        </div>
         <ul>
             <li>Inicio</li>
+            <li>Precios</li>
             <li>Sortear</li>
         </ul>
 
         <div class="nav-login-buttons-container">
-            <button>Iniciar Sesión</button>
+            <button id="login-button">Iniciar Sesión</button>
             <p>o</p>
-            <a>Registrarse</a>
+            <a id="register-button" href="">Registrarse</a>
         </div>
     </nav>
     <main>
+        <section class="welcome-section">
+
+            <div class="background-image-container">
+
+            </div>
+            <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f3f4f5" fill-opacity="1"
+                    d="M0,160L120,149.3C240,139,480,117,720,117.3C960,117,1200,139,1320,149.3L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+
+        <section class="about-info-section">
+            <h1 class="mainpage-title">¿Qué es Galaxy Sorteos?</h1>
+            <div class="about-info-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt atque accusamus deleniti sint,
+                    distinctio excepturi. Necessitatibus ab repudiandae, ex minus, magni nobis expedita qui tenetur
+                    voluptas cupiditate ipsam saepe consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Rerum dolorem, quam quas reiciendis illo cumque consequuntur sapiente dolor. Excepturi
+                    officiis in aut doloremque nisi ullam voluptatibus nesciunt culpa quos! Quaerat?</p>
+            </div>
+        </section>
+        <section class="prices-info-section">
+            <h1 class="mainpage-title">Precios</h1>
+            <div class="price-cards-container">
+                <div class="card">
+                    <div class="header-price-card">
+                        <h2 id="card-price-title">Free</h2>
+                        <h2 id="card-price-price">$0 USD</h2>
+                    </div>
+
+                    <ul>
+                        <li><img class="tickorcross" src="img/tick.png" alt=""> Sin costos.</li>
+                        <li><img class="tickorcross" src="img/cross.png" alt="">Hasta 500 comentarios.</li>
+                        <li><img class="tickorcross" src="img/tick.png" alt="">Ganador al azar.</li>
+                        <li><img class="tickorcross" src="img/tick.png" alt="">Verificación de cumplimento de
+                            requisitos.</li>
+                    </ul>
+                    <button class="price-card-button">
+                        ¡Sortear ahora!
+                    </button>
+
+                </div>
+                <div class="card">
+                    <div class="header-price-card">
+                        <h2 id="card-price-title">Special</h2>
+                        <h2 id="card-price-price">$1 USD</h2>
+                    </div>
+
+                    <ul>
+                        <li><img class="tickorcross" src="img/tick.png" alt=""> Soporte incluído.</li>
+                        <li><img class="tickorcross" src="img/cross.png" alt="">Hasta 2000 comentarios.</li>
+                        <li><img class="tickorcross" src="img/tick.png" alt="">Ganador al azar.</li>
+                        <li><img class="tickorcross" src="img/tick.png" alt="">Verificación de cumplimento de
+                            requisitos.</li>
+                    </ul>
+                    <button class="price-card-button">
+                        ¡Sortear ahora!
+                    </button>
+
+                </div>
+                <div class="card">
+                    <div class="header-price-card">
+                        <h2 id="card-price-title">Unlimited</h2>
+                        <h2 id="card-price-price">$5 USD</h2>
+                    </div>
+
+                    <ul>
+                        <li><img class="tickorcross" src="img/tick.png" alt=""> Soporte incluído.</li>
+                        <li><img class="tickorcross" src="img/tick.png" alt="">Sin límite de comentarios.</li>
+                        <li><img class="tickorcross" src="img/tick.png" alt="">Ganador al azar.</li>
+                        <li><img class="tickorcross" src="img/tick.png" alt="">Verificación de cumplimento de
+                            requisitos.</li>
+                    </ul>
+                    <button class="price-card-button">
+                        ¡Sortear ahora!
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="faqs-section">
+            <h1 class="mainpage-title">Preguntas Frecuentes</h1>
+
+            <div class="faqs-container">
+                <div class="faq">
+                    <h2 class="faq-question">¿Es seguro utilizar Galaxy Sorteos?</h2><i class="fa fa-plus"></i>
+                </div>
+                <div class="faq">
+                    <h2 class="faq-question">¿Es gratuito el sorteo?</h2> <i class="fa fa-plus"></i>
+                </div>
+                <div class="faq">
+                    <h2 class="faq-question">¿De dónde obtengo la URL del post de instagram?</h2> <i
+                        class="fa fa-plus"></i>
+                </div>
+                <div class="faq">
+                    <h2 class="faq-question">¿Necesito crearme una cuenta en Galaxy Sorteos para sortear?</h2> <i
+                        class="fa fa-plus"></i>
+                </div>
+                <div class="faq">
+                    <h2 class="faq-question">¿Puedo agregar condiciones al sorteo?</h2> <i class="fa fa-plus"></i>
+                </div>
+                <div class="faq">
+                    <h2 class="faq-question">¿Debo pagar cada vez que quiero realizar un sorteo?</h2> <i
+                        class="fa fa-plus"></i>
+                </div>
+                <div class="faq">
+                    <h2 class="faq-question">¿En que moneda se efectuará el pago?</h2> <i class="fa fa-plus"></i>
+                </div>
+                <div class="faq">
+                    <h2 class="faq-question">¿Soy genial por usar Galaxy Sorteos?</h2> <i class="fa fa-plus"></i>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer>
+        <ul>
+            <li>AYUDA</li>
+            <li>PRECIOS</li>
+            <li>SOBRE GALAXY SORTEOS</li>
+            <li>TÉRMINOS Y CONDICIONES DE USO</li>
+            <li>POLÍTICAS DE PRIVACIDAD</li>
+        </ul>
 
     </footer>
 </body>
+
 </html>
